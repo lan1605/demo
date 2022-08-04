@@ -1,0 +1,12 @@
+mixin menuLink(title, href)
+	li.header-menu-item 
+		a.header-menu-link(href=href)= title
+mixin popularItem(src)
+	.popular-item
+		img.popular-item-img(src=src)
+		h3.popular-item-title Title Here
+		p.popular-item-desc Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+mixin statisticItem(num, text)
+	.statistic-item
+		.statistic-number=num
+		.statistic-text=text

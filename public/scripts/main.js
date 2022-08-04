@@ -1,0 +1,1 @@
+const menuToggle=document.querySelector(".header-top-toggle"),menuHeader=document.querySelector(".header-menu");menuToggle.addEventListener("click",function(){menuHeader.classList.add("is-expand")}),window.addEventListener("click",function(e){menuHeader.contains(e.target)||e.target.matches(".header-top-toggle")||menuHeader.classList.remove("is-expand")});

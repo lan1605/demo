@@ -1,0 +1,14 @@
+.wrapper {
+    max-width: $wrapper;
+    margin: 0 auto;
+}
+@media (min-width:768px) and (max-width:1023px){
+    .wrapper{
+        max-width: max-content;
+    }
+}
+// .container {
+//     max-width: $container + 30px;
+//     margin: 0 auto;
+//     padding: 0 15px;
+// }

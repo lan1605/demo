@@ -1,0 +1,17 @@
+header.header 
+	.container
+		.header-top 
+			img.header-top-logo(src="./images/logo.png")
+			i.fa.fa-bars.header-top-toggle
+			ul.header-menu
+				+menuLink("Home","#")
+				+menuLink("Product","#")
+				+menuLink("Promo","#")
+				+menuLink("About","#")
+				+menuLink("Contact","#")
+				li.header-menu-item 
+					a.fa.fa-search.header-menu-icon
+		.header-content
+			h1.header-content-title Title Here 
+			p.header-content-desc Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum nisi iure adipisci cum id.
+			a.header-content-link(href="#") Order now
