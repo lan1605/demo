@@ -78,7 +78,7 @@
 @media (min-width:768px) and (max-width:1023px){
     .header{
         min-height: 700px;
-        width: max-content;
+        width: 100%;
         .wrapper{
             width: max-content;
         }
@@ -107,7 +107,7 @@
     .header{
         background-position: center center;
         min-height: 750px;
-        width: max-content;
+        width: 100%;
        &-top{
         &-toggle{
             display: block;
